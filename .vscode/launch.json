@@ -33,7 +33,7 @@
             "request": "launch",
             "name": "PowerShell Launch Current File w/Args Prompt",
             "script": "${file}",
-            "args": [
+            "args" [
                 "${command:SpecifyScriptArgs}"
             ],
             "cwd": "${file}"
